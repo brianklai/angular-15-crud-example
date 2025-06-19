@@ -3,9 +3,10 @@ import { Tutorial } from 'src/app/models/tutorial.model';
 import { TutorialService } from 'src/app/services/tutorial.service';
 
 @Component({
-  selector: 'app-tutorials-list',
-  templateUrl: './tutorials-list.component.html',
-  styleUrls: ['./tutorials-list.component.css']
+    selector: 'app-tutorials-list',
+    templateUrl: './tutorials-list.component.html',
+    styleUrls: ['./tutorials-list.component.css'],
+    standalone: false
 })
 export class TutorialsListComponent implements OnInit {
 
